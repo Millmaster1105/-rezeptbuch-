@@ -1,0 +1,259 @@
+{
+ "recipes": [
+  {
+   "id": "beispiel-shakshuka",
+   "title": "Shakshuka mit Feta",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Frühstück",
+   "time": 25,
+   "servings": 2,
+   "cuisine": "Orientalisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Zwiebel"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "rote Paprika"
+    },
+    {
+     "amount": 2,
+     "unit": "Zehen",
+     "name": "Knoblauch"
+    },
+    {
+     "amount": 1,
+     "unit": "Dose",
+     "name": "gehackte Tomaten"
+    },
+    {
+     "amount": 4,
+     "unit": "",
+     "name": "Eier"
+    },
+    {
+     "amount": 80,
+     "unit": "g",
+     "name": "Feta"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Kreuzkümmel"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Paprikapulver"
+    },
+    {
+     "amount": 2,
+     "unit": "EL",
+     "name": "Olivenöl"
+    },
+    {
+     "amount": null,
+     "unit": "",
+     "name": "Salz"
+    }
+   ],
+   "steps": [
+    "Zwiebel und Paprika würfeln, Knoblauch fein hacken.",
+    "Olivenöl in einer Pfanne erhitzen, Zwiebel und Paprika 5 Minuten weich braten.",
+    "Knoblauch, Kreuzkümmel und Paprikapulver 1 Minute mitrösten.",
+    "Tomaten zugeben, salzen und 8 Minuten einköcheln lassen.",
+    "Vier Mulden formen, Eier hineinschlagen, Deckel drauf und 5–7 Minuten stocken lassen.",
+    "Feta darüberbröseln und mit Brot servieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Beispiel",
+    "vegetarisch",
+    "schnell"
+   ],
+   "notes": "Beispielrezept – kannst du bearbeiten oder löschen.",
+   "photo": null,
+   "parentId": null,
+   "author": "Beispiel",
+   "createdAt": 1793271884256,
+   "updatedAt": 1793271884256,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "beispiel-bananenbrot",
+   "title": "Bananenbrot",
+   "source": "",
+   "art": "Backen",
+   "meal": "Kuchen & Gebäck",
+   "time": 70,
+   "servings": 12,
+   "cuisine": "Amerikanisch",
+   "mealprep": true,
+   "equipment": [
+    "ofen"
+   ],
+   "ingredients": [
+    {
+     "amount": 3,
+     "unit": "",
+     "name": "reife Bananen"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Eier"
+    },
+    {
+     "amount": 80,
+     "unit": "g",
+     "name": "Butter, geschmolzen"
+    },
+    {
+     "amount": 100,
+     "unit": "g",
+     "name": "Zucker"
+    },
+    {
+     "amount": 250,
+     "unit": "g",
+     "name": "Mehl"
+    },
+    {
+     "amount": 1,
+     "unit": "Pck",
+     "name": "Backpulver"
+    },
+    {
+     "amount": 1,
+     "unit": "Prise",
+     "name": "Salz"
+    },
+    {
+     "amount": 50,
+     "unit": "g",
+     "name": "Walnüsse"
+    }
+   ],
+   "steps": [
+    "Ofen auf 175 °C Ober-/Unterhitze vorheizen, Kastenform fetten.",
+    "Bananen mit einer Gabel zerdrücken.",
+    "Eier, Butter und Zucker unterrühren.",
+    "Mehl, Backpulver und Salz mischen und kurz unterheben.",
+    "Gehackte Walnüsse unterheben, Teig in die Form füllen.",
+    "55–60 Minuten backen, Stäbchenprobe machen."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Beispiel",
+    "Resteverwertung"
+   ],
+   "notes": "Beispielrezept – kannst du bearbeiten oder löschen.",
+   "photo": null,
+   "parentId": null,
+   "author": "Beispiel",
+   "createdAt": 1793271884256,
+   "updatedAt": 1793271884256,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "beispiel-chili",
+   "title": "Linsen-Chili",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 40,
+   "servings": 4,
+   "cuisine": "Mexikanisch",
+   "mealprep": true,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Zwiebel"
+    },
+    {
+     "amount": 2,
+     "unit": "Zehen",
+     "name": "Knoblauch"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Paprika"
+    },
+    {
+     "amount": 200,
+     "unit": "g",
+     "name": "rote Linsen"
+    },
+    {
+     "amount": 1,
+     "unit": "Dose",
+     "name": "Kidneybohnen"
+    },
+    {
+     "amount": 1,
+     "unit": "Dose",
+     "name": "Mais"
+    },
+    {
+     "amount": 1,
+     "unit": "Dose",
+     "name": "gehackte Tomaten"
+    },
+    {
+     "amount": 500,
+     "unit": "ml",
+     "name": "Gemüsebrühe"
+    },
+    {
+     "amount": 2,
+     "unit": "TL",
+     "name": "Chilipulver"
+    },
+    {
+     "amount": 2,
+     "unit": "EL",
+     "name": "Öl"
+    }
+   ],
+   "steps": [
+    "Zwiebel, Knoblauch und Paprika würfeln und in Öl anbraten.",
+    "Chilipulver kurz mitrösten.",
+    "Linsen, Tomaten und Brühe zugeben und 15 Minuten köcheln.",
+    "Bohnen und Mais abspülen, zugeben und 5 Minuten weiterköcheln.",
+    "Abschmecken, mit Reis oder Brot servieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Beispiel",
+    "high protein",
+    "vegan"
+   ],
+   "notes": "Beispielrezept – kannst du bearbeiten oder löschen.",
+   "photo": null,
+   "parentId": null,
+   "author": "Beispiel",
+   "createdAt": 1793271884256,
+   "updatedAt": 1793271884256,
+   "cookedCount": 0,
+   "lastCooked": null
+  }
+ ]
+}

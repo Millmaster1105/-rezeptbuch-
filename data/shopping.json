@@ -1,0 +1,21 @@
+{
+ "items": [
+  {
+   "id": "bsp1",
+   "name": "Feta",
+   "unit": "g",
+   "amount": 200,
+   "checked": false,
+   "from": []
+  },
+  {
+   "id": "bsp2",
+   "name": "Eier",
+   "unit": "",
+   "amount": 6,
+   "checked": false,
+   "from": []
+  }
+ ],
+ "updatedAt": 1793271884256
+}
