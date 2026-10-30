@@ -254,6 +254,107 @@
    "updatedAt": 1793271884256,
    "cookedCount": 0,
    "lastCooked": null
+  },
+  {
+   "id": "miso-milch-ramen",
+   "title": "Miso-Milch-Ramen mit scharfem Hack",
+   "source": "https://youtube.com/shorts/5gLmbm3oL1I",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 20,
+   "servings": 1,
+   "cuisine": "Japanisch",
+   "mealprep": false,
+   "equipment": [
+    "topf",
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 120,
+     "unit": "g",
+     "name": "Schweinehackfleisch"
+    },
+    {
+     "amount": 130,
+     "unit": "g",
+     "name": "Ramen-Nudeln"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "neutrales Öl"
+    },
+    {
+     "amount": 4,
+     "unit": "g",
+     "name": "Knoblauch, gerieben"
+    },
+    {
+     "amount": 4,
+     "unit": "g",
+     "name": "Ingwer, gerieben"
+    },
+    {
+     "amount": 4,
+     "unit": "g",
+     "name": "Toban Djan (Chilibohnensauce)"
+    },
+    {
+     "amount": 7.5,
+     "unit": "ml",
+     "name": "Sake"
+    },
+    {
+     "amount": 28,
+     "unit": "g",
+     "name": "weißes Miso"
+    },
+    {
+     "amount": 140,
+     "unit": "ml",
+     "name": "Wasser"
+    },
+    {
+     "amount": 200,
+     "unit": "ml",
+     "name": "Milch"
+    },
+    {
+     "amount": 2,
+     "unit": "g",
+     "name": "Kombu (oder 1 g MSG)"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Nori-Blatt (optional)"
+    }
+   ],
+   "steps": [
+    "Kombu in 140 ml Wasser 10 Minuten einweichen, dann langsam erhitzen und kurz vor dem Kochen herausnehmen.",
+    "Öl in einer Pfanne erhitzen und das Hackfleisch 4 Minuten krümelig und leicht knusprig braten.",
+    "Knoblauch, Ingwer und Toban Djan zugeben und 1 Minute mitbraten.",
+    "Mit Sake ablöschen und kurz einkochen lassen.",
+    "Milch zum Kombu-Wasser geben und erhitzen, aber nicht kochen lassen.",
+    "Miso in etwas Brühe glatt rühren und unter die Suppe rühren.",
+    "Ramen-Nudeln nach Packungsangabe kochen (meist 2–3 Minuten) und abgießen.",
+    "Nudeln in eine Schüssel geben, Suppe darübergießen, Hack darauf verteilen und mit Nori garnieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "scharf",
+    "schnell"
+   ],
+   "notes": "Im Video wird Reiskleieöl verwendet. Suppe nach dem Miso nicht mehr kochen, sonst flockt die Milch aus.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793380442073,
+   "updatedAt": 1793380442073,
+   "cookedCount": 0,
+   "lastCooked": null
   }
  ]
 }
