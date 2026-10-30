@@ -355,6 +355,2852 @@
    "updatedAt": 1793380442073,
    "cookedCount": 0,
    "lastCooked": null
+  },
+  {
+   "id": "shoyu-ramen",
+   "title": "Shoyu-Ramen (Tokyo-Style)",
+   "source": "https://www.reddit.com/r/ramen/s/926VeoueaX",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 15,
+   "servings": 1,
+   "cuisine": "Japanisch",
+   "mealprep": false,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 300,
+     "unit": "ml",
+     "name": "Tokyo-Chintan (Hühnerbrühe)"
+    },
+    {
+     "amount": 30,
+     "unit": "ml",
+     "name": "Shoyu-Tare"
+    },
+    {
+     "amount": 20,
+     "unit": "ml",
+     "name": "Negi-Niboshi-Öl"
+    },
+    {
+     "amount": 135,
+     "unit": "g",
+     "name": "Tokyo-Ramen-Nudeln"
+    },
+    {
+     "amount": 2,
+     "unit": "Scheiben",
+     "name": "Chashu"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Ajitama (mariniertes Ei)"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Frühlingszwiebel, in feine Ringe"
+    },
+    {
+     "amount": 1,
+     "unit": "Handvoll",
+     "name": "Menma"
+    }
+   ],
+   "steps": [
+    "Vorher fertig haben: Brühe, Tare, Öl, Nudeln, Chashu, Ajitama und Menma (siehe die verknüpften Bausteine unten).",
+    "Schüssel im Ofen bei niedrigster Stufe oder mit heißem Wasser vorwärmen.",
+    "Brühe in einem Topf heiß machen, in einem zweiten großen Topf reichlich Wasser für die Nudeln sprudelnd kochen.",
+    "Chashu in Scheiben schneiden, Ei halbieren, Frühlingszwiebel in feine Ringe schneiden. Kalte Toppings rechtzeitig aus dem Kühlschrank nehmen.",
+    "Nudeln ins sprudelnde Wasser geben, kurz umrühren und 1,5–2 Minuten kochen. Nie in der Brühe kochen.",
+    "Währenddessen in die warme Schüssel in dieser Reihenfolge geben: Tare, Öl, dann die heiße Brühe.",
+    "Nudeln gründlich abtropfen lassen, in die Suppe geben und mit Stäbchen ordentlich in Bahnen falten.",
+    "Chashu, Ajitama, Menma und Frühlingszwiebeln darauf verteilen und sofort essen."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Ramen"
+   ],
+   "notes": "Nach „The Ramen_Lord Book of Ramen“ (Mike & Scott Satinover), in eigenen Worten zusammengefasst. Baustein-Mengen pro Schüssel: 300 ml Brühe, 30 ml Tare, 20 ml Öl, 135 g Nudeln. Nicht mehr als 5 Toppings.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072426,
+   "updatedAt": 1793393072426,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "ramen-tokyo-chintan",
+   "title": "Tokyo-Chintan (klare Hühnerbrühe für Ramen)",
+   "source": "https://www.reddit.com/r/ramen/s/926VeoueaX",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 360,
+   "servings": 15,
+   "cuisine": "Japanisch",
+   "mealprep": true,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 3,
+     "unit": "kg",
+     "name": "Suppenhuhn, in Teile zerlegt"
+    },
+    {
+     "amount": 1,
+     "unit": "kg",
+     "name": "Hühnerfüße"
+    },
+    {
+     "amount": 6,
+     "unit": "l",
+     "name": "Wasser"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Zwiebel"
+    },
+    {
+     "amount": 10,
+     "unit": "Zehen",
+     "name": "Knoblauch"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Ingwer (5-cm-Stück)"
+    },
+    {
+     "amount": 20,
+     "unit": "g",
+     "name": "Kombu"
+    },
+    {
+     "amount": 20,
+     "unit": "g",
+     "name": "Niboshi (getrocknete Sardinen)"
+    },
+    {
+     "amount": 20,
+     "unit": "g",
+     "name": "Katsuobushi (Bonitoflocken)"
+    }
+   ],
+   "steps": [
+    "Huhn und Hühnerfüße in einen großen Topf legen und mit dem Wasser bedecken.",
+    "Aufkochen und den Schaum abschöpfen. 5–10 Minuten sprudeln lassen, bis kaum noch Schaum kommt.",
+    "Hitze stark reduzieren: knapp unter dem Simmern halten (ca. 88 °C), so bleibt die Brühe klar. 5 Stunden ziehen lassen.",
+    "Zwiebel, Knoblauch, Ingwer, Niboshi und Kombu dazugeben und weitere 45 Minuten ziehen lassen.",
+    "Für die letzten 10 Minuten die Bonitoflocken einrühren.",
+    "Durch ein feines Sieb abgießen. Abgekühlt portionsweise einfrieren oder einige Tage im Kühlschrank lagern."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Ramen",
+    "Ramen-Baustein"
+   ],
+   "notes": "Nach „The Ramen_Lord Book of Ramen“ (Mike & Scott Satinover), in eigenen Worten zusammengefasst. Ergibt grob 4–5 l, also etwa 15 Schüsseln à 300 ml. Gut portionsweise einfrierbar.",
+   "photo": null,
+   "parentId": "shoyu-ramen",
+   "author": "Claude",
+   "createdAt": 1793393072427,
+   "updatedAt": 1793393072427,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "ramen-shoyu-tare",
+   "title": "Shoyu-Tare (Würzbasis für Ramen)",
+   "source": "https://www.reddit.com/r/ramen/s/926VeoueaX",
+   "art": "Kochen",
+   "meal": "Beilage",
+   "time": 60,
+   "servings": 16,
+   "cuisine": "Japanisch",
+   "mealprep": true,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 450,
+     "unit": "g",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 15,
+     "unit": "g",
+     "name": "Kombu"
+    },
+    {
+     "amount": 50,
+     "unit": "g",
+     "name": "Mirin"
+    },
+    {
+     "amount": 40,
+     "unit": "g",
+     "name": "Sake"
+    },
+    {
+     "amount": 15,
+     "unit": "g",
+     "name": "Niboshi"
+    },
+    {
+     "amount": 15,
+     "unit": "g",
+     "name": "Katsuobushi"
+    },
+    {
+     "amount": 30,
+     "unit": "g",
+     "name": "brauner Zucker"
+    }
+   ],
+   "steps": [
+    "Sojasauce, Mirin, Sake, Kombu und Niboshi in einem verschlossenen Gefäß mindestens 6 Stunden (bis 2 Tage) im Kühlschrank ziehen lassen.",
+    "Alles in einen Topf geben, auf 71 °C erhitzen und 10 Minuten bei dieser Temperatur halten.",
+    "Kombu herausnehmen.",
+    "Auf 82 °C erhitzen (knapp unter dem Kochen) und 15 Minuten halten.",
+    "Bonitoflocken dazugeben und weitere 5 Minuten bei 82 °C ziehen lassen.",
+    "Zucker einrühren, bis er gelöst ist, dann durch ein feines Sieb abgießen.",
+    "Im Kühlschrank lagern, hält bis zu 6 Monate."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Ramen",
+    "Ramen-Baustein"
+   ],
+   "notes": "Nach „The Ramen_Lord Book of Ramen“ (Mike & Scott Satinover), in eigenen Worten zusammengefasst. Ein Küchenthermometer hilft. Pro Schüssel 30 ml Tare auf 300–350 ml Brühe. Ergibt ca. 500 ml.",
+   "photo": null,
+   "parentId": "shoyu-ramen",
+   "author": "Claude",
+   "createdAt": 1793393072428,
+   "updatedAt": 1793393072428,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "ramen-huehnerfett",
+   "title": "Hühnerfett auslassen (Chiyu)",
+   "source": "https://www.reddit.com/r/ramen/s/926VeoueaX",
+   "art": "Kochen",
+   "meal": "Beilage",
+   "time": 50,
+   "servings": 6,
+   "cuisine": "Japanisch",
+   "mealprep": true,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 500,
+     "unit": "g",
+     "name": "Hühnerhaut"
+    },
+    {
+     "amount": 30,
+     "unit": "g",
+     "name": "Wasser"
+    }
+   ],
+   "steps": [
+    "Hühnerhaut mit dem Wasser in eine Pfanne geben und bei mittlerer Hitze erwärmen.",
+    "Etwa 45 Minuten sanft auslassen. Für ein mildes Fett verdampftes Wasser immer wieder ersetzen, damit die Haut nicht bräunt.",
+    "Für mehr Röstaroma kein Wasser nachgießen und die Haut im eigenen Fett goldbraun braten lassen.",
+    "Fett durch ein Sieb abgießen. Die knusprige Haut ist ein guter Snack.",
+    "Im Kühlschrank bis zu 6 Monate haltbar."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Ramen",
+    "Ramen-Baustein"
+   ],
+   "notes": "Nach „The Ramen_Lord Book of Ramen“ (Mike & Scott Satinover), in eigenen Worten zusammengefasst. Basis für das Negi-Niboshi-Öl. Hühnerhaut gibt es beim Metzger oder von Hähnchenschenkeln.",
+   "photo": null,
+   "parentId": "shoyu-ramen",
+   "author": "Claude",
+   "createdAt": 1793393072429,
+   "updatedAt": 1793393072429,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "ramen-negi-niboshi-oel",
+   "title": "Negi-Niboshi-Öl (Würzöl für Ramen)",
+   "source": "https://www.reddit.com/r/ramen/s/926VeoueaX",
+   "art": "Kochen",
+   "meal": "Beilage",
+   "time": 20,
+   "servings": 6,
+   "cuisine": "Japanisch",
+   "mealprep": true,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 125,
+     "unit": "ml",
+     "name": "Hühnerfett, ausgelassen"
+    },
+    {
+     "amount": 5,
+     "unit": "",
+     "name": "Frühlingszwiebeln, in 5-cm-Stücken"
+    },
+    {
+     "amount": 10,
+     "unit": "",
+     "name": "Niboshi (mittelgroß)"
+    }
+   ],
+   "steps": [
+    "Hühnerfett, Frühlingszwiebeln und Niboshi in einen kleinen Topf geben.",
+    "Bei mittlerer bis niedriger Hitze unter gelegentlichem Rühren etwa 15 Minuten erhitzen, bis alles hellgolden ist und duftet.",
+    "Vom Herd nehmen und im Topf abkühlen lassen.",
+    "Abseihen und in ein Glas füllen. Im Kühlschrank bis zu 6 Monate haltbar."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Ramen",
+    "Ramen-Baustein"
+   ],
+   "notes": "Nach „The Ramen_Lord Book of Ramen“ (Mike & Scott Satinover), in eigenen Worten zusammengefasst. 20 ml pro Schüssel.",
+   "photo": null,
+   "parentId": "shoyu-ramen",
+   "author": "Claude",
+   "createdAt": 1793393072430,
+   "updatedAt": 1793393072430,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "ramen-tokyo-nudeln",
+   "title": "Tokyo-Ramen-Nudeln (selbst gemacht)",
+   "source": "https://www.reddit.com/r/ramen/s/926VeoueaX",
+   "art": "Kochen",
+   "meal": "Beilage",
+   "time": 120,
+   "servings": 1,
+   "cuisine": "Japanisch",
+   "mealprep": true,
+   "equipment": [
+    "sonstiges"
+   ],
+   "ingredients": [
+    {
+     "amount": 99,
+     "unit": "g",
+     "name": "Brotmehl (Type 812/1050, eiweißreich)"
+    },
+    {
+     "amount": 1,
+     "unit": "g",
+     "name": "Weizengluten"
+    },
+    {
+     "amount": 1,
+     "unit": "g",
+     "name": "Eiweißpulver (Eiklar)"
+    },
+    {
+     "amount": 38,
+     "unit": "g",
+     "name": "Wasser"
+    },
+    {
+     "amount": 1,
+     "unit": "g",
+     "name": "Salz"
+    },
+    {
+     "amount": 1.2,
+     "unit": "g",
+     "name": "gebackenes Natron oder Kansui-Pulver"
+    }
+   ],
+   "steps": [
+    "Gebackenes Natron vorbereiten: Natron auf einem Blech 1 Stunde bei 120 °C backen und luftdicht aufbewahren. Alternativ 0,5 g Natriumcarbonat + 0,7 g Kaliumcarbonat.",
+    "Natron und Salz im Wasser vollständig auflösen. Das dauert etwas, die Lösung kann auch Tage vorher angesetzt werden.",
+    "Mehl, Gluten und Eiweißpulver in der Küchenmaschine mit dem Flachrührer 30 Sekunden auf niedrigster Stufe mischen.",
+    "Bei laufender Maschine zwei Drittel der Lösung langsam einlaufen lassen und 3 Minuten weiterrühren.",
+    "Den Rest der Lösung zugeben und etwa 1 Minute rühren, bis sich kleine Krümel bilden.",
+    "Krümel in einen Gefrierbeutel geben, verschließen und 1 Stunde bei Raumtemperatur ruhen lassen.",
+    "Mit der Nudelmaschine kneten: auf breitester, dann zweiter und dritter Stufe durchwalzen, falten und wiederholen, bis die Platte glatt ist.",
+    "Teig wieder in den Beutel geben und 30 Minuten ruhen lassen.",
+    "Portionsweise mit Stärke bestäubt dünn auswalzen und in 1,5 mm breite Nudeln schneiden.",
+    "In 130-g-Portionen bündeln, in einen Beutel geben und mindestens 1 Tag im Kühlschrank reifen lassen."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Ramen",
+    "Ramen-Baustein"
+   ],
+   "notes": "Nach „The Ramen_Lord Book of Ramen“ (Mike & Scott Satinover), in eigenen Worten zusammengefasst. Mengen für 1 Portion, einfach multiplizieren. Eine Nudelmaschine mit Schneidaufsatz ist praktisch Pflicht. Notlösung: frische Ramen-Nudeln aus dem Asia-Laden.",
+   "photo": null,
+   "parentId": "shoyu-ramen",
+   "author": "Claude",
+   "createdAt": 1793393072431,
+   "updatedAt": 1793393072431,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "ramen-ajitama",
+   "title": "Ajitama (marinierte Ramen-Eier)",
+   "source": "https://www.reddit.com/r/ramen/s/926VeoueaX",
+   "art": "Kochen",
+   "meal": "Beilage",
+   "time": 20,
+   "servings": 6,
+   "cuisine": "Japanisch",
+   "mealprep": true,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 6,
+     "unit": "",
+     "name": "Eier (Größe L)"
+    },
+    {
+     "amount": 100,
+     "unit": "ml",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 100,
+     "unit": "ml",
+     "name": "Mirin"
+    },
+    {
+     "amount": 100,
+     "unit": "ml",
+     "name": "Wasser"
+    }
+   ],
+   "steps": [
+    "Einen großen Topf Wasser sprudelnd aufkochen und eine Schüssel mit Eiswasser bereitstellen.",
+    "Eier direkt aus dem Kühlschrank am breiten Ende anpieksen, damit sie nicht platzen und sich besser schälen lassen.",
+    "Eier vorsichtig ins kochende Wasser legen (höchstens 4–6 auf einmal) und in der ersten Minute umrühren.",
+    "6 Minuten für flüssiges Eigelb, 7 Minuten für leicht cremiges Eigelb kochen.",
+    "Sofort ins Eiswasser geben und 15 Minuten abkühlen lassen, dann schälen.",
+    "Sojasauce, Mirin und Wasser mischen. Eier in einem Beutel oder einer Dose damit bedecken.",
+    "4–6 Stunden im Kühlschrank marinieren, dabei ab und zu wenden, dann herausnehmen. Nicht länger, sonst werden sie zu salzig."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Ramen",
+    "Ramen-Baustein"
+   ],
+   "notes": "Nach „The Ramen_Lord Book of Ramen“ (Mike & Scott Satinover), in eigenen Worten zusammengefasst. Halten nach dem Marinieren einige Tage im Kühlschrank.",
+   "photo": null,
+   "parentId": "shoyu-ramen",
+   "author": "Claude",
+   "createdAt": 1793393072432,
+   "updatedAt": 1793393072432,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "ramen-chashu",
+   "title": "Chashu (geschmorter Schweinebauch)",
+   "source": "https://www.reddit.com/r/ramen/s/926VeoueaX",
+   "art": "Kochen",
+   "meal": "Beilage",
+   "time": 240,
+   "servings": 8,
+   "cuisine": "Japanisch",
+   "mealprep": true,
+   "equipment": [
+    "ofen",
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 1,
+     "unit": "kg",
+     "name": "Schweinebauch oder Schweinenacken"
+    },
+    {
+     "amount": null,
+     "unit": "",
+     "name": "Salz"
+    },
+    {
+     "amount": null,
+     "unit": "",
+     "name": "Pfeffer"
+    },
+    {
+     "amount": 125,
+     "unit": "ml",
+     "name": "Mirin"
+    },
+    {
+     "amount": 125,
+     "unit": "ml",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 250,
+     "unit": "ml",
+     "name": "Wasser"
+    },
+    {
+     "amount": 12.5,
+     "unit": "g",
+     "name": "brauner Zucker"
+    },
+    {
+     "amount": 60,
+     "unit": "ml",
+     "name": "Sake"
+    },
+    {
+     "amount": 3,
+     "unit": "Zehen",
+     "name": "Knoblauch, angedrückt"
+    }
+   ],
+   "steps": [
+    "Ofen auf 110 °C vorheizen.",
+    "Einen ofenfesten Bräter (z. B. Gusseisen) bei mittlerer Hitze erhitzen.",
+    "Fleisch rundum salzen und pfeffern und von allen Seiten je 4–5 Minuten goldbraun anbraten. Ausgetretenes Fett mit Küchenpapier abtupfen.",
+    "Mirin, Sojasauce, Wasser und Zucker verrühren, bis der Zucker gelöst ist. Knoblauch dazugeben.",
+    "Bräter mit Sake ablöschen, die Sojamischung zugießen und aufkochen.",
+    "Zugedeckt im Ofen etwa 3 Stunden schmoren, dabei stündlich wenden, bis das Fleisch sehr zart ist (ca. 93 °C Kerntemperatur).",
+    "Im Sud abkühlen lassen und über Nacht kalt stellen. Kalt lässt es sich sauber in Scheiben schneiden.",
+    "Vor dem Servieren die Scheiben kurz in die heiße Brühe legen oder mit dem Bunsenbrenner abflämmen."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Ramen",
+    "Ramen-Baustein"
+   ],
+   "notes": "Nach „The Ramen_Lord Book of Ramen“ (Mike & Scott Satinover), in eigenen Worten zusammengefasst. Der Schmorsud eignet sich gut als Marinade für die Ajitama.",
+   "photo": null,
+   "parentId": "shoyu-ramen",
+   "author": "Claude",
+   "createdAt": 1793393072433,
+   "updatedAt": 1793393072433,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "ramen-menma",
+   "title": "Menma (gewürzte Bambussprossen)",
+   "source": "https://www.reddit.com/r/ramen/s/926VeoueaX",
+   "art": "Kochen",
+   "meal": "Beilage",
+   "time": 20,
+   "servings": 10,
+   "cuisine": "Japanisch",
+   "mealprep": true,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 500,
+     "unit": "g",
+     "name": "milchsauer fermentierte Bambussprossen"
+    },
+    {
+     "amount": 100,
+     "unit": "g",
+     "name": "Mirin"
+    },
+    {
+     "amount": 15,
+     "unit": "g",
+     "name": "Zucker"
+    },
+    {
+     "amount": 20,
+     "unit": "g",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sesamöl"
+    }
+   ],
+   "steps": [
+    "Bambussprossen am Vortag in kaltem Wasser 12–24 Stunden im Kühlschrank wässern.",
+    "Gut abtropfen lassen.",
+    "Mit Mirin, Zucker und Sojasauce in eine Pfanne geben und unter gelegentlichem Rühren 10–15 Minuten köcheln, bis die Flüssigkeit fast aufgenommen ist.",
+    "Mit etwas Sesamöl überziehen.",
+    "In ein Gefäß füllen und 24 Stunden durchziehen lassen. Hält lange im Kühlschrank."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Ramen",
+    "Ramen-Baustein"
+   ],
+   "notes": "Nach „The Ramen_Lord Book of Ramen“ (Mike & Scott Satinover), in eigenen Worten zusammengefasst. Fermentierte Bambussprossen sind schwer zu bekommen. Einfacher: fertiges Menma aus dem Asia-Laden.",
+   "photo": null,
+   "parentId": "shoyu-ramen",
+   "author": "Claude",
+   "createdAt": 1793393072434,
+   "updatedAt": 1793393072434,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-mango-sticky-rice",
+   "title": "Mango Sticky Rice (Khao Niao Mamuang)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Dessert",
+   "time": 40,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 1,
+     "unit": "Tasse",
+     "name": "Klebreis, über Nacht eingeweicht und gedämpft"
+    },
+    {
+     "amount": 240,
+     "unit": "ml",
+     "name": "Kokosmilch"
+    },
+    {
+     "amount": 0.25,
+     "unit": "TL",
+     "name": "Salz"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Zucker"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "reife Mango"
+    }
+   ],
+   "steps": [
+    "Klebreis über Nacht einweichen und etwa 25 Minuten über Dampf garen.",
+    "Kokosmilch in einen Topf geben, Salz und Zucker einrühren und sanft erhitzen, bis sie leicht eindickt. Nicht kochen.",
+    "Gegarten Klebreis in die Kokosmilch geben, gut vermischen und 10 Minuten ziehen lassen.",
+    "Mango schälen, in Scheiben schneiden und neben dem Reis anrichten."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072435,
+   "updatedAt": 1793393072435,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-banane-kokosmilch",
+   "title": "Bananen in Kokosmilch (Kluay Buat Chi)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Dessert",
+   "time": 15,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Bananen (am besten kleine Thai-Bananen)"
+    },
+    {
+     "amount": 240,
+     "unit": "ml",
+     "name": "Kokosmilch"
+    },
+    {
+     "amount": 1.5,
+     "unit": "EL",
+     "name": "Zucker"
+    },
+    {
+     "amount": 120,
+     "unit": "ml",
+     "name": "Wasser"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "Salz"
+    }
+   ],
+   "steps": [
+    "Kokosmilch und Wasser in einen Topf geben und erhitzen.",
+    "Zucker einrühren, bis er gelöst ist.",
+    "Bananen in Stücke schneiden, mit dem Salz dazugeben und 5 Minuten sanft köcheln, bis sie weich sind.",
+    "Warm in Schälchen servieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072436,
+   "updatedAt": 1793393072436,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-frittierte-banane",
+   "title": "Frittierte Bananen (Kluay Tod)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Dessert",
+   "time": 25,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Bananen"
+    },
+    {
+     "amount": 120,
+     "unit": "g",
+     "name": "Weizenmehl"
+    },
+    {
+     "amount": 120,
+     "unit": "g",
+     "name": "Reismehl"
+    },
+    {
+     "amount": 60,
+     "unit": "ml",
+     "name": "Kokosmilch"
+    },
+    {
+     "amount": 2,
+     "unit": "EL",
+     "name": "Kokosraspel"
+    },
+    {
+     "amount": 3,
+     "unit": "EL",
+     "name": "Zucker"
+    },
+    {
+     "amount": 0.25,
+     "unit": "TL",
+     "name": "Salz"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sesam"
+    },
+    {
+     "amount": 500,
+     "unit": "ml",
+     "name": "Pflanzenöl zum Frittieren"
+    }
+   ],
+   "steps": [
+    "Öl in einem Wok oder tiefen Topf etwa 5 Minuten auf ca. 170 °C erhitzen.",
+    "Reismehl, Weizenmehl, Zucker, Salz und Kokosmilch zu einem dickflüssigen Teig verrühren, bei Bedarf etwas Wasser zugeben.",
+    "Sesam und Kokosraspel unterrühren.",
+    "Bananen längs in 4 Stücke schneiden und durch den Teig ziehen.",
+    "Portionsweise 3–4 Minuten goldbraun frittieren und auf Küchenpapier abtropfen lassen."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072437,
+   "updatedAt": 1793393072437,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-tom-kha-gai",
+   "title": "Tom Kha Gai (Kokos-Hühnersuppe)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Suppe",
+   "time": 25,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Stange Zitronengras"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Kaffirlimettenblatt"
+    },
+    {
+     "amount": 3,
+     "unit": "Scheiben",
+     "name": "Galgant"
+    },
+    {
+     "amount": 1,
+     "unit": "Scheibe",
+     "name": "Kurkuma, frisch"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Schalotten"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Austernpilze"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Thai-Chilis (1–4 je nach Schärfe)"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Tomate"
+    },
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Hähnchenbrust, in Scheiben"
+    },
+    {
+     "amount": 2,
+     "unit": "EL",
+     "name": "Fischsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 250,
+     "unit": "ml",
+     "name": "Kokosmilch"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "Palmzucker"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Limette"
+    },
+    {
+     "amount": 240,
+     "unit": "ml",
+     "name": "Hühnerbrühe"
+    },
+    {
+     "amount": 1,
+     "unit": "Handvoll",
+     "name": "Culantro oder Koriander"
+    }
+   ],
+   "steps": [
+    "Zitronengras, Schalotten, Chili, Hähnchen, Galgant, Tomate und Kurkuma in Stücke schneiden.",
+    "Kokosmilch in einen Topf geben und erhitzen.",
+    "Zitronengras, Galgant, Kurkuma und Kaffirlimettenblatt dazugeben.",
+    "Brühe angießen und aufkochen.",
+    "Schalotten, Hähnchen, Austernpilze, Palmzucker, Sojasauce, Fischsauce, Chili und Tomate dazugeben und 5 Minuten köcheln, bis das Hähnchen gar ist.",
+    "Culantro und Limettensaft in die Servierschüssel geben und die Suppe darübergießen."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072438,
+   "updatedAt": 1793393072438,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-tom-yum-goong",
+   "title": "Tom Yum Goong (scharf-saure Garnelensuppe)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Suppe",
+   "time": 25,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Stange Zitronengras"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Kaffirlimettenblatt"
+    },
+    {
+     "amount": 3,
+     "unit": "Scheiben",
+     "name": "Galgant"
+    },
+    {
+     "amount": 1,
+     "unit": "Scheibe",
+     "name": "Kurkuma, frisch"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Schalotten"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Austernpilze"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Thai-Chilis (1–4 je nach Schärfe)"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Chilipaste (Nam Prik Pao)"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Tomate"
+    },
+    {
+     "amount": 5,
+     "unit": "",
+     "name": "Garnelen"
+    },
+    {
+     "amount": 2,
+     "unit": "EL",
+     "name": "Fischsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 250,
+     "unit": "ml",
+     "name": "Kokosmilch"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "Palmzucker"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Limette"
+    },
+    {
+     "amount": 240,
+     "unit": "ml",
+     "name": "Hühnerbrühe"
+    },
+    {
+     "amount": 1,
+     "unit": "Handvoll",
+     "name": "Culantro oder Koriander"
+    }
+   ],
+   "steps": [
+    "Zitronengras, Schalotten, Galgant, Tomate und Kurkuma in Stücke schneiden.",
+    "Brühe in einem Topf aufkochen.",
+    "Zitronengras, Galgant, Kurkuma und Kaffirlimettenblatt dazugeben und 2 Minuten ziehen lassen.",
+    "Kokosmilch angießen.",
+    "Schalotten, Chilipaste, Garnelen, Austernpilze, Palmzucker, Sojasauce, Fischsauce, Chili und Tomate dazugeben und 3 Minuten köcheln, bis die Garnelen rosa sind.",
+    "Culantro und Limettensaft in die Servierschüssel geben und die Suppe darübergießen."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "scharf"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072439,
+   "updatedAt": 1793393072439,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-pad-thai",
+   "title": "Pad Thai",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 25,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 80,
+     "unit": "g",
+     "name": "Reisbandnudeln, eingeweicht"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Ei"
+    },
+    {
+     "amount": 50,
+     "unit": "g",
+     "name": "fester Tofu, gewürfelt"
+    },
+    {
+     "amount": 1,
+     "unit": "Handvoll",
+     "name": "Sojasprossen"
+    },
+    {
+     "amount": 120,
+     "unit": "g",
+     "name": "Hähnchen (oder 4 Garnelen)"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Schalotten"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Frühlingszwiebeln (oder Schnittknoblauch)"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 2,
+     "unit": "EL",
+     "name": "Fischsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Austernsauce"
+    },
+    {
+     "amount": 2,
+     "unit": "EL",
+     "name": "Tamarindensaft"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Chiliöl"
+    },
+    {
+     "amount": 0.25,
+     "unit": "TL",
+     "name": "dunkle Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Tomatenketchup"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Chilisauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Palmzucker"
+    },
+    {
+     "amount": 3,
+     "unit": "EL",
+     "name": "Hühnerbrühe"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "geröstete Erdnüsse"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Limettenspalte"
+    }
+   ],
+   "steps": [
+    "Fischsauce, Sojasauce, Austernsauce, Tamarindensaft, Chiliöl, dunkle Sojasauce, Ketchup, Chilisauce und Palmzucker in einer Schüssel verrühren.",
+    "Öl im Wok erhitzen.",
+    "Schalotten und Tofu anbraten, dann Hähnchen oder Garnelen dazugeben und 2 Minuten braten.",
+    "Alles an den Rand schieben, das Ei in die Mitte schlagen und halb stocken lassen.",
+    "Eingeweichte Nudeln und Brühe dazugeben und unter Rühren 2 Minuten braten.",
+    "Würzsauce zugeben und alles gut vermengen.",
+    "Sojasprossen und Frühlingszwiebeln unterheben. Mit Erdnüssen und Limette servieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072440,
+   "updatedAt": 1793393072440,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-pad-kee-mao",
+   "title": "Pad Kee Mao (Drunken Noodles)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 20,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 1,
+     "unit": "Stück",
+     "name": "Fingerwurz (Krachai)"
+    },
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Schweine- oder Hähnchenfleisch"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Stängel Chinakohl/Kai-lan"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Thai-Chilis (1–2)"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Schlangenbohne, in Stücken"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Kaffirlimettenblatt"
+    },
+    {
+     "amount": 2,
+     "unit": "Zehen",
+     "name": "Knoblauch"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Chili Padi (1–2)"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Cayennechili"
+    },
+    {
+     "amount": 5,
+     "unit": "",
+     "name": "schwarze Pfefferkörner (grün, frisch, wenn möglich)"
+    },
+    {
+     "amount": 1,
+     "unit": "Handvoll",
+     "name": "Thai-Basilikum"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Austernsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "Zucker"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "dunkle Sojasauce"
+    },
+    {
+     "amount": 120,
+     "unit": "g",
+     "name": "breite Reisnudeln"
+    }
+   ],
+   "steps": [
+    "Öl im Wok stark erhitzen.",
+    "Knoblauch, Chilis, Chili Padi, Cayennechili, Fingerwurz und Pfeffer kurz anbraten, bis es duftet.",
+    "Fleisch dazugeben und 2–3 Minuten braten.",
+    "Kai-lan, Schlangenbohne, Nudeln, Austernsauce, Sojasauce, dunkle Sojasauce und Zucker dazugeben und 2 Minuten unter Rühren braten.",
+    "Kaffirlimettenblatt und Basilikum unterheben und sofort servieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "scharf"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072441,
+   "updatedAt": 1793393072441,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-pad-see-ew",
+   "title": "Pad See Ew",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 15,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Stängel Kai-lan (chinesischer Brokkoli)"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Ei"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Austernsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 0.25,
+     "unit": "TL",
+     "name": "Zucker"
+    },
+    {
+     "amount": 0.25,
+     "unit": "TL",
+     "name": "dunkle Sojasauce"
+    },
+    {
+     "amount": 120,
+     "unit": "g",
+     "name": "breite Reisnudeln"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Tomate"
+    },
+    {
+     "amount": 100,
+     "unit": "g",
+     "name": "Hähnchen oder Schwein (optional)"
+    }
+   ],
+   "steps": [
+    "Öl im Wok stark erhitzen.",
+    "Ei hineinschlagen und kurz stocken lassen, dann zerteilen.",
+    "Kai-lan, Nudeln, Tomate und die Saucen mit dem Zucker dazugeben und 2–3 Minuten unter Rühren braten, bis die Nudeln leicht karamellisieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072442,
+   "updatedAt": 1793393072442,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-som-tam",
+   "title": "Papayasalat (Som Tam)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Salat",
+   "time": 15,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "sonstiges"
+   ],
+   "ingredients": [
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "grüne Papaya, geraspelt"
+    },
+    {
+     "amount": 30,
+     "unit": "g",
+     "name": "Karotte, geraspelt"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Thai-Chili"
+    },
+    {
+     "amount": 2,
+     "unit": "Zehen",
+     "name": "Knoblauch"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Schlangenbohne, in Stücken"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "geröstete Erdnüsse"
+    },
+    {
+     "amount": 2,
+     "unit": "EL",
+     "name": "Tamarindensaft"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 2,
+     "unit": "EL",
+     "name": "Fischsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Limettensaft"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Palmzucker"
+    },
+    {
+     "amount": 4,
+     "unit": "",
+     "name": "Kirschtomaten, halbiert"
+    }
+   ],
+   "steps": [
+    "Chili, Knoblauch und Schlangenbohne im Mörser kräftig zerstoßen.",
+    "Palmzucker, Fischsauce, Sojasauce, Tamarinde, Limettensaft und Tomaten dazugeben und mischen, bis sich der Zucker gelöst hat.",
+    "Papaya und Karotte dazugeben, leicht stampfen und alles gut vermengen.",
+    "Auf einem Teller anrichten und mit Erdnüssen bestreuen."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "scharf",
+    "schnell"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072443,
+   "updatedAt": 1793393072443,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-larb",
+   "title": "Larb (würziger Hacksalat)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Salat",
+   "time": 20,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Hähnchen- oder Schweinehack"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Schalotten, in feinen Ringen"
+    },
+    {
+     "amount": 2,
+     "unit": "EL",
+     "name": "Fischsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Limettensaft"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "Chilipulver"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "geröstetes Reispulver (Khao Khua)"
+    },
+    {
+     "amount": 1,
+     "unit": "Handvoll",
+     "name": "Culantro oder Koriander"
+    },
+    {
+     "amount": 1,
+     "unit": "Handvoll",
+     "name": "Minze"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "Zucker"
+    }
+   ],
+   "steps": [
+    "Hack in einer Pfanne mit 2–3 EL Wasser 4 Minuten krümelig garen.",
+    "Chilipulver, Reispulver, Zucker, Fischsauce und Limettensaft in einer Schüssel verrühren.",
+    "Schalotten, Culantro und Minze dazugeben.",
+    "Das warme Hack untermischen und alles gut vermengen.",
+    "Auf einem Teller anrichten, dazu passt Klebreis."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "scharf"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt. Hieß im Kurs „Spicy Minced Pork Salad“, wurde aber mit Hähnchen gemacht. Reispulver: Klebreis trocken rösten und mahlen.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072444,
+   "updatedAt": 1793393072444,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-yum-woon-sen",
+   "title": "Glasnudelsalat (Yum Woon Sen)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Salat",
+   "time": 20,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 100,
+     "unit": "g",
+     "name": "Hähnchenhack"
+    },
+    {
+     "amount": 50,
+     "unit": "g",
+     "name": "Glasnudeln"
+    },
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Zwiebel, in Streifen"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Thai-Chili"
+    },
+    {
+     "amount": 2,
+     "unit": "Zehen",
+     "name": "Knoblauch, gehackt"
+    },
+    {
+     "amount": 1.5,
+     "unit": "EL",
+     "name": "Fischsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Limettensaft"
+    },
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Karotte, in Streifen"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Stange chinesischer Sellerie"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Tomate"
+    },
+    {
+     "amount": 4,
+     "unit": "",
+     "name": "Garnelen (optional)"
+    }
+   ],
+   "steps": [
+    "Glasnudeln 2 Minuten in kochendem Wasser garen, dann in kaltem Wasser abschrecken.",
+    "Hack und Garnelen kurz in kochendem Wasser garen und abtropfen lassen.",
+    "Chili, Knoblauch, Fischsauce und Limettensaft in einer Schüssel verrühren.",
+    "Glasnudeln, Hack und Dressing gut vermischen.",
+    "Sellerie, Zwiebel, Karotte und Tomate untermischen.",
+    "Auf einem Teller anrichten und mit den Garnelen belegen."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "scharf"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072445,
+   "updatedAt": 1793393072445,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-gruenes-curry",
+   "title": "Grünes Curry mit selbst gemachter Paste",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 40,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne",
+    "sonstiges"
+   ],
+   "ingredients": [
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "schwarze Pfefferkörner"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Koriandersamen"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "Kreuzkümmel"
+    },
+    {
+     "amount": 1,
+     "unit": "Scheibe",
+     "name": "Galgant"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Selleriewurzel, gehackt"
+    },
+    {
+     "amount": 0.25,
+     "unit": "",
+     "name": "Stange Zitronengras"
+    },
+    {
+     "amount": 2,
+     "unit": "Zehen",
+     "name": "Knoblauch"
+    },
+    {
+     "amount": 5,
+     "unit": "",
+     "name": "grüne Chilis"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Schalotten"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Salz"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Garnelenpaste"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Kaffirlimettenschale, gerieben"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Hähnchenbrust, in Streifen"
+    },
+    {
+     "amount": 250,
+     "unit": "ml",
+     "name": "Kokosmilch"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Thai-Aubergine, gewürfelt"
+    },
+    {
+     "amount": 0.25,
+     "unit": "TL",
+     "name": "Palmzucker"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Kaffirlimettenblätter"
+    },
+    {
+     "amount": 1,
+     "unit": "Handvoll",
+     "name": "Thai-Basilikum"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "rote Chili, in Streifen"
+    }
+   ],
+   "steps": [
+    "Schwarzen Pfeffer, Koriandersamen und Kreuzkümmel im Mörser fein zerstoßen.",
+    "Galgant, Zitronengras, Sellerie, Knoblauch, grüne Chilis und Schalotten dazugeben und zu einer Paste zerstoßen.",
+    "Salz, Garnelenpaste und Kaffirlimettenschale untermörsern.",
+    "Öl im Wok erhitzen und die Currypaste bei mittlerer Hitze anschwitzen, bis sie duftet.",
+    "Hähnchen dazugeben und 1–2 Minuten rühren, bis es gar ist.",
+    "Kokosmilch angießen, 1 Minute rühren, dann die Aubergine dazugeben und bei mittlerer Hitze weich köcheln (ca. 5 Minuten).",
+    "Mit Palmzucker und Sojasauce abschmecken.",
+    "Kaffirlimettenblätter, Thai-Basilikum und rote Chili unterheben, vom Herd nehmen und servieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "scharf"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072446,
+   "updatedAt": 1793393072446,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-rotes-curry",
+   "title": "Rotes Curry mit selbst gemachter Paste",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 40,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne",
+    "sonstiges"
+   ],
+   "ingredients": [
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "schwarze Pfefferkörner"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Koriandersamen"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "Kreuzkümmel"
+    },
+    {
+     "amount": 1,
+     "unit": "Scheibe",
+     "name": "Galgant"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Selleriewurzel, gehackt"
+    },
+    {
+     "amount": 0.25,
+     "unit": "",
+     "name": "Stange Zitronengras"
+    },
+    {
+     "amount": 2,
+     "unit": "Zehen",
+     "name": "Knoblauch"
+    },
+    {
+     "amount": 5,
+     "unit": "",
+     "name": "getrocknete rote Chilis, eingeweicht"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Schalotten"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Salz"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Garnelenpaste"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Kaffirlimettenschale, gerieben"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Hähnchenbrust, in Streifen"
+    },
+    {
+     "amount": 250,
+     "unit": "ml",
+     "name": "Kokosmilch"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Thai-Aubergine, gewürfelt"
+    },
+    {
+     "amount": 0.25,
+     "unit": "TL",
+     "name": "Palmzucker"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Kaffirlimettenblätter"
+    },
+    {
+     "amount": 1,
+     "unit": "Handvoll",
+     "name": "Thai-Basilikum"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "rote Chili, in Streifen"
+    }
+   ],
+   "steps": [
+    "Schwarzen Pfeffer, Koriandersamen und Kreuzkümmel im Mörser fein zerstoßen.",
+    "Galgant, Zitronengras, Sellerie, Knoblauch, rote Chilis und Schalotten dazugeben und zu einer Paste zerstoßen.",
+    "Salz, Garnelenpaste und Kaffirlimettenschale untermörsern.",
+    "Öl im Wok erhitzen und die Currypaste bei mittlerer Hitze anschwitzen, bis sie duftet.",
+    "Hähnchen dazugeben und 1–2 Minuten rühren, bis es gar ist.",
+    "Kokosmilch angießen, 1 Minute rühren, dann die Aubergine dazugeben und bei mittlerer Hitze weich köcheln (ca. 5 Minuten).",
+    "Mit Palmzucker und Sojasauce abschmecken.",
+    "Kaffirlimettenblätter, Thai-Basilikum und rote Chili unterheben, vom Herd nehmen und servieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "scharf"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072447,
+   "updatedAt": 1793393072447,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-panang-curry",
+   "title": "Panang Curry",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 40,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne",
+    "sonstiges"
+   ],
+   "ingredients": [
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "schwarze Pfefferkörner"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Koriandersamen"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "Kreuzkümmel"
+    },
+    {
+     "amount": 1,
+     "unit": "Scheibe",
+     "name": "Galgant"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Selleriewurzel, gehackt"
+    },
+    {
+     "amount": 0.25,
+     "unit": "",
+     "name": "Stange Zitronengras"
+    },
+    {
+     "amount": 2,
+     "unit": "Zehen",
+     "name": "Knoblauch"
+    },
+    {
+     "amount": 5,
+     "unit": "",
+     "name": "getrocknete rote Chilis, eingeweicht"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Schalotten"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Salz"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Garnelenpaste"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Kaffirlimettenschale, gerieben"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Hähnchenbrust, in Streifen"
+    },
+    {
+     "amount": 250,
+     "unit": "ml",
+     "name": "Kokosmilch"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Thai-Aubergine, gewürfelt"
+    },
+    {
+     "amount": 0.25,
+     "unit": "TL",
+     "name": "Palmzucker"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Kaffirlimettenblätter"
+    },
+    {
+     "amount": 1,
+     "unit": "Handvoll",
+     "name": "Thai-Basilikum"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "rote Chili, in Streifen"
+    },
+    {
+     "amount": 1,
+     "unit": "Prise",
+     "name": "Muskatnuss"
+    },
+    {
+     "amount": 1,
+     "unit": "Prise",
+     "name": "Macis (Muskatblüte)"
+    }
+   ],
+   "steps": [
+    "Schwarzen Pfeffer, Koriandersamen und Kreuzkümmel im Mörser fein zerstoßen.",
+    "Galgant, Zitronengras, Sellerie, Knoblauch, rote Chilis und Schalotten, Muskat und Macis dazugeben und zu einer Paste zerstoßen.",
+    "Salz, Garnelenpaste und Kaffirlimettenschale untermörsern.",
+    "Öl im Wok erhitzen und die Currypaste bei mittlerer Hitze anschwitzen, bis sie duftet.",
+    "Hähnchen dazugeben und 1–2 Minuten rühren, bis es gar ist.",
+    "Kokosmilch angießen, 1 Minute rühren, dann die Aubergine dazugeben und bei mittlerer Hitze weich köcheln (ca. 5 Minuten).",
+    "Mit Palmzucker und Sojasauce abschmecken.",
+    "Kaffirlimettenblätter, Thai-Basilikum und rote Chili unterheben, vom Herd nehmen und servieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "scharf"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072448,
+   "updatedAt": 1793393072448,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-khao-soi",
+   "title": "Khao Soi (nordthailändische Curry-Nudelsuppe)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Suppe",
+   "time": 35,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "topf",
+    "sonstiges"
+   ],
+   "ingredients": [
+    {
+     "amount": 1,
+     "unit": "Scheibe",
+     "name": "Krachai (Fingerwurz)"
+    },
+    {
+     "amount": 1,
+     "unit": "Scheibe",
+     "name": "Galgant"
+    },
+    {
+     "amount": 1,
+     "unit": "Scheibe",
+     "name": "Ingwer"
+    },
+    {
+     "amount": 0.25,
+     "unit": "",
+     "name": "Stange Zitronengras"
+    },
+    {
+     "amount": 2,
+     "unit": "Zehen",
+     "name": "Knoblauch"
+    },
+    {
+     "amount": 5,
+     "unit": "",
+     "name": "getrocknete rote Chilis"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Schalotten"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Salz"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Garnelenpaste"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Kaffirlimettenschale"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "gelbes Currypulver"
+    },
+    {
+     "amount": 0.25,
+     "unit": "TL",
+     "name": "Palmzucker"
+    },
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Hähnchenschenkel"
+    },
+    {
+     "amount": 300,
+     "unit": "ml",
+     "name": "Kokosmilch"
+    },
+    {
+     "amount": 120,
+     "unit": "g",
+     "name": "Eiernudeln (gelbe Nudeln)"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Limette"
+    }
+   ],
+   "steps": [
+    "Galgant, Zitronengras, Krachai, Ingwer, Knoblauch, Chilis und Schalotten im Mörser zu einer Paste zerstoßen.",
+    "Salz und Garnelenpaste untermörsern.",
+    "Öl und Currypulver im Topf erhitzen und die Paste darin anschwitzen, bis sie duftet.",
+    "Hähnchen und Kokosmilch dazugeben und 15 Minuten köcheln. Mit Palmzucker abschmecken.",
+    "Eine Handvoll Nudeln frittieren für das knusprige Topping, den Rest 3 Minuten kochen.",
+    "Gekochte Nudeln in eine Schüssel geben, Curry darübergießen, mit frittierten Nudeln und Limette servieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "scharf"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072449,
+   "updatedAt": 1793393072449,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-pad-pak-boong",
+   "title": "Gebratener Wasserspinat (Pad Pak Boong)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Beilage",
+   "time": 10,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 1,
+     "unit": "Bund",
+     "name": "Wasserspinat (Morning Glory)"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Austernsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojabohnenpaste"
+    },
+    {
+     "amount": 2,
+     "unit": "Zehen",
+     "name": "Knoblauch, angedrückt"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Thai-Chili"
+    }
+   ],
+   "steps": [
+    "Öl im Wok sehr stark erhitzen, Knoblauch und Chili kurz anbraten.",
+    "Wasserspinat dazugeben und 1 Minute unter Rühren braten.",
+    "Sojabohnenpaste, Sojasauce und Austernsauce dazugeben, kurz durchschwenken und sofort servieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "schnell"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072450,
+   "updatedAt": 1793393072450,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-gai-pad-king",
+   "title": "Hähnchen mit Ingwer (Gai Pad King)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 20,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Hähnchenbrust, in Streifen"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Mu-Err-Pilze, eingeweicht"
+    },
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Zwiebel"
+    },
+    {
+     "amount": 3,
+     "unit": "Scheiben",
+     "name": "Karotte"
+    },
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Paprika"
+    },
+    {
+     "amount": 1,
+     "unit": "Stück",
+     "name": "Ingwer (3 cm), in feinen Streifen"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Zucker"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Austernsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojabohnenpaste"
+    }
+   ],
+   "steps": [
+    "Öl im Wok stark erhitzen.",
+    "Hähnchen 2 Minuten anbraten, dann Zwiebel, Paprika, Ingwer, Karotte und Pilze dazugeben und 2 Minuten mitbraten.",
+    "Sojasauce, Sojabohnenpaste, Zucker und Austernsauce dazugeben und alles gut durchschwenken."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072451,
+   "updatedAt": 1793393072451,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-pad-priew-wan",
+   "title": "Süß-saures Hähnchen (Pad Priew Wan)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 20,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Paprika"
+    },
+    {
+     "amount": 3,
+     "unit": "Scheiben",
+     "name": "Gurke"
+    },
+    {
+     "amount": 3,
+     "unit": "Stück",
+     "name": "Ananas"
+    },
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Tomate"
+    },
+    {
+     "amount": 3,
+     "unit": "Scheiben",
+     "name": "Karotte"
+    },
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Hähnchenbrust, in Streifen"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Zucker"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Austernsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 3,
+     "unit": "TL",
+     "name": "Tomatenketchup"
+    },
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Zwiebel"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    }
+   ],
+   "steps": [
+    "Öl im Wok stark erhitzen.",
+    "Hähnchen 2 Minuten anbraten, dann Zwiebel, Paprika, Karotte, Tomate, Ananas und Gurke dazugeben und 2 Minuten mitbraten.",
+    "Sojasauce, Zucker, Ketchup und Austernsauce einrühren und kurz einkochen lassen."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072452,
+   "updatedAt": 1793393072452,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-pad-pak-ruam",
+   "title": "Gebratenes Mischgemüse (Pad Pak Ruam)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Beilage",
+   "time": 10,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 250,
+     "unit": "g",
+     "name": "gemischtes Gemüse (Brokkoli, Karotte, Pak Choi, Pilze)"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Austernsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "Zucker"
+    },
+    {
+     "amount": 2,
+     "unit": "Zehen",
+     "name": "Knoblauch"
+    }
+   ],
+   "steps": [
+    "Öl im Wok stark erhitzen und den Knoblauch kurz anbraten.",
+    "Gemüse dazugeben und 2–3 Minuten unter Rühren bissfest braten.",
+    "Zucker, Sojasauce und Austernsauce dazugeben und durchschwenken."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "vegetarisch",
+    "schnell"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072453,
+   "updatedAt": 1793393072453,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-gai-pad-med-mamuang",
+   "title": "Hähnchen mit Cashews (Gai Pad Med Mamuang)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 20,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Hähnchenbrust, in Streifen"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Mu-Err-Pilze, eingeweicht"
+    },
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Zwiebel"
+    },
+    {
+     "amount": 3,
+     "unit": "Scheiben",
+     "name": "Karotte"
+    },
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Paprika"
+    },
+    {
+     "amount": 40,
+     "unit": "g",
+     "name": "Cashews, geröstet"
+    },
+    {
+     "amount": 0.5,
+     "unit": "TL",
+     "name": "Zucker"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Austernsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojabohnenpaste"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "getrocknete Chilis (optional)"
+    }
+   ],
+   "steps": [
+    "Öl im Wok stark erhitzen.",
+    "Hähnchen 2 Minuten anbraten, dann Zwiebel, Paprika, Karotte, Pilze und Cashews dazugeben und 2 Minuten mitbraten.",
+    "Sojasauce, Sojabohnenpaste, Zucker und Austernsauce dazugeben und alles gut durchschwenken."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072454,
+   "updatedAt": 1793393072454,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-pad-krapow",
+   "title": "Pad Krapow (Basilikum-Hähnchen)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 15,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Hähnchen- oder Schweinehack"
+    },
+    {
+     "amount": 5,
+     "unit": "Zehen",
+     "name": "Knoblauch"
+    },
+    {
+     "amount": 20,
+     "unit": "",
+     "name": "Blätter Thai-Basilikum (Holy Basil)"
+    },
+    {
+     "amount": 3,
+     "unit": "",
+     "name": "Thai-Chilis (3–5)"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 2,
+     "unit": "TL",
+     "name": "Austernsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "süße Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Spiegelei zum Servieren (optional)"
+    }
+   ],
+   "steps": [
+    "Knoblauch und Chilis im Mörser grob zerstoßen.",
+    "Öl im Wok stark erhitzen und Knoblauch und Chili kurz anbraten.",
+    "Fleisch dazugeben und 3 Minuten krümelig braten.",
+    "Sojasauce, süße Sojasauce und Austernsauce dazugeben.",
+    "Basilikum unterheben, bis es zusammenfällt. Mit Reis und Spiegelei servieren."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs",
+    "scharf",
+    "schnell"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072455,
+   "updatedAt": 1793393072455,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "maultaschen",
+   "title": "Schwäbische Maultaschen",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 120,
+   "servings": 4,
+   "cuisine": "Deutsch",
+   "mealprep": true,
+   "equipment": [
+    "topf"
+   ],
+   "ingredients": [
+    {
+     "amount": 250,
+     "unit": "g",
+     "name": "Spinat, fein geschnitten"
+    },
+    {
+     "amount": 250,
+     "unit": "g",
+     "name": "Hackfleisch"
+    },
+    {
+     "amount": 250,
+     "unit": "g",
+     "name": "Brät, fein"
+    },
+    {
+     "amount": 100,
+     "unit": "g",
+     "name": "Rauchfleisch, fein geschnitten"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Brötchen, eingeweicht und ausgedrückt"
+    },
+    {
+     "amount": 1,
+     "unit": "",
+     "name": "Zwiebel, fein geschnitten"
+    },
+    {
+     "amount": 1,
+     "unit": "Bund",
+     "name": "Petersilie, fein gehackt"
+    },
+    {
+     "amount": 3,
+     "unit": "",
+     "name": "Eier"
+    },
+    {
+     "amount": null,
+     "unit": "",
+     "name": "Salz, Pfeffer, Muskat"
+    },
+    {
+     "amount": 500,
+     "unit": "g",
+     "name": "Mehl (Nudelteig)"
+    },
+    {
+     "amount": 5,
+     "unit": "",
+     "name": "Eier (Nudelteig)"
+    },
+    {
+     "amount": 2,
+     "unit": "EL",
+     "name": "Wasser (Nudelteig)"
+    },
+    {
+     "amount": 1,
+     "unit": "Prise",
+     "name": "Salz (Nudelteig)"
+    },
+    {
+     "amount": 1500,
+     "unit": "ml",
+     "name": "Fleischbrühe zum Garen"
+    }
+   ],
+   "steps": [
+    "Nudelteig: Mehl, 5 Eier, Salz und Wasser zu einem glatten, festen Teig kneten, in Folie wickeln und 30 Minuten ruhen lassen.",
+    "Zwiebel in etwas Butter glasig dünsten, Spinat kurz mitdünsten und abkühlen lassen.",
+    "Hackfleisch, Brät, Rauchfleisch, ausgedrückte Brötchen, Zwiebel-Spinat, Petersilie und 3 Eier gründlich verkneten. Mit Salz, Pfeffer und Muskat abschmecken.",
+    "Teig portionsweise dünn ausrollen (Nudelmaschine vorletzte Stufe) und in ca. 12 cm breite Bahnen schneiden.",
+    "Füllung auf eine Hälfte der Bahn streichen, Ränder mit Wasser bestreichen, zuklappen und mit einem Kochlöffelstiel in ca. 6 cm breite Taschen abdrücken. Ausschneiden.",
+    "In siedender Brühe 15 Minuten gar ziehen lassen, nicht sprudelnd kochen.",
+    "In der Brühe servieren oder am nächsten Tag in Butter mit Zwiebeln und Ei abschmälzen."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Familienrezept"
+   ],
+   "notes": "Familienrezept vom handschriftlichen Zettel: 4 Personen, ca. 20 Stück. Mal 3 genommen ergibt 2,6 kg Füllung + 2,6 kg Nudelteig, also ca. 115 Maultaschen. Teigrezept und Zubereitung ergänzt. Roh oder gegart gut einfrierbar.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072456,
+   "updatedAt": 1793393072456,
+   "cookedCount": 0,
+   "lastCooked": null
   }
  ]
 }
