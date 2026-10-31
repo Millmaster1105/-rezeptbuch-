@@ -181,6 +181,10 @@ label.lbl,.lbl{display:block;font-size:.78rem;font-weight:700;text-transform:upp
 .actions{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
 .confirm{background:var(--tomato-soft);border-radius:var(--r);padding:14px;display:grid;gap:10px}
 .variants{display:grid;gap:8px}
+.bringrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:12px}
+.notebox{display:grid;gap:8px}
+.exportgrid{display:grid;gap:8px}
+.exportgrid .btn{justify-content:flex-start}
 /* Form */
 .form{display:grid;gap:16px}
 .row2{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px}
@@ -329,6 +333,23 @@ label.lbl,.lbl{display:block;font-size:.78rem;font-weight:700;text-transform:upp
         <div class="actions"><button class="btn" id="st-invite">Einladungslink kopieren</button><button class="btn ghost" id="st-logout" style="color:var(--tomato)">Auf diesem Gerät trennen</button></div>
         <textarea class="input" id="st-invite-fallback" readonly hidden style="min-height:70px;margin-top:10px"></textarea>
       </div>
+      <div class="panel" id="st-stay-box" hidden>
+        <h2>Verbunden bleiben</h2>
+        <p class="small" style="margin:0 0 10px">Dein persönlicher Startlink verbindet die App bei jedem Öffnen automatisch, auch wenn der Browser seine Daten löscht. Öffne ihn einmal in Safari und lege ihn über <b>Teilen → Zum Home-Bildschirm</b> ab. Ab dann einfach über das Icon starten.</p>
+        <div class="actions"><button class="btn primary" id="st-stay">Persönlichen Startlink öffnen</button><button class="btn" id="st-stay-copy">Link kopieren</button></div>
+        <p class="small" style="margin:10px 0 0">Der Link enthält deinen Zugangsschlüssel. Nicht weitergeben, dafür gibt es den Einladungslink.</p>
+        <textarea class="input" id="st-stay-fallback" readonly hidden style="min-height:70px;margin-top:10px"></textarea>
+      </div>
+      <div class="panel">
+        <h2>Backup &amp; Export</h2>
+        <p class="small" style="margin:0 0 10px">Alle Rezepte auf einmal sichern. Zusätzlich speichert GitHub jede Änderung, nichts geht verloren.</p>
+        <div class="exportgrid">
+          <button class="btn" id="ex-pdf">Kochbuch als PDF (zum Drucken oder Speichern)</button>
+          <button class="btn" id="ex-csv">Tabelle als CSV (Excel, Numbers)</button>
+          <button class="btn" id="ex-json">Vollständiges Backup als JSON</button>
+        </div>
+        <div class="status" id="ex-status"></div>
+      </div>
     </div>
   </div>
 </div>
@@ -389,7 +410,7 @@ label.lbl,.lbl{display:block;font-size:.78rem;font-weight:700;text-transform:upp
 const MEALS=["Frühstück","Hauptgericht","Beilage","Salat","Suppe","Snack","Dessert","Kuchen & Gebäck","Brot","Getränk"];
 const CUISINES=["Deutsch","Italienisch","Französisch","Spanisch","Griechisch","Türkisch","Orientalisch","Indisch","Thailändisch","Chinesisch","Japanisch","Koreanisch","Vietnamesisch","Mexikanisch","Amerikanisch","International"];
 const DEFAULT_PANTRY=["Salz","Pfeffer","Öl","Olivenöl","Wasser","Zucker"];
-const UNITS="g|kg|mg|ml|l|cl|dl|EL|TL|Msp|Prise|Prisen|Stk|Stück|Becher|Dose|Dosen|Pck|Päckchen|Bund|Zehe|Zehen|Tasse|Tassen|Scheibe|Scheiben|Handvoll|Glas|Würfel|Liter";
+const UNITS="g|kg|mg|ml|l|cl|dl|EL|TL|Msp|Prise|Prisen|Stk|Stücke|Stück|Becher|Dose|Dosen|Pck|Päckchen|Bund|Zehe|Zehen|Tasse|Tassen|Scheibe|Scheiben|Handvoll|Glas|Würfel|Liter";
 const DAYS=["Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag","Sonntag"];
 const ICON_T='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l2 2M9 2h6"/></svg>';
 const EQUIP={
@@ -442,7 +463,8 @@ function parseIngLine(line){line=line.trim().replace(/^[-•*]\s*/,"");if(!line)
   const re=new RegExp("^([\\d.,/½¼¾]+(?:\\s*-\\s*[\\d.,]+)?)?\\s*("+UNITS+")?\\.?\\s+(.+)$","i");
   const m=line.match(re);if(m&&(m[1]||m[2])){let unit=m[2]||"";if(/^liter$/i.test(unit))unit="l";return{amount:parseAmount(m[1]),unit,name:m[3].trim()}}
   return{amount:null,unit:"",name:line}}
-function ingToLine(i){return [i.amount!=null?fmtNum(i.amount):"",i.unit||"",i.name||""].filter(Boolean).join(" ")}
+function exactNum(n){return String(Math.round(n*1000)/1000).replace(".",",")}
+function ingToLine(i){return [i.amount!=null?exactNum(i.amount):"",i.unit||"",i.name||""].filter(Boolean).join(" ")}
 function norm(s){return String(s||"").toLowerCase().replace(/\(.*?\)/g," ").replace(/[^a-zäöüß\s-]/g," ").replace(/\s+/g," ").trim()}
 function stem(w){w=norm(w);for(const suf of["en","er","n","e","s"])if(w.length>4&&w.endsWith(suf))return w.slice(0,-suf.length);return w}
 function ingMatches(ingName,item){const st=stem(item);if(!st)return false;const n=norm(ingName);
@@ -477,7 +499,16 @@ const FILES={recipes:"data/recipes.json",plan:"data/plan.json",fridge:"data/frid
 const DEFAULTS={recipes:()=>({recipes:[]}),plan:()=>({entries:[]}),fridge:()=>({items:[],pantry:DEFAULT_PANTRY.slice()}),shopping:()=>({items:[]})};
 const store={recipes:DEFAULTS.recipes(),plan:DEFAULTS.plan(),fridge:DEFAULTS.fridge(),shopping:DEFAULTS.shopping()};
 const meta={};for(const k in FILES)meta[k]={sha:null,etag:null,loaded:false};
-let cfg=ls.get("rb.cfg",null);
+const CFG_COOKIE="rbcfg";
+function cookieGet(){try{const m=document.cookie.match(/(?:^|; )rbcfg=([^;]*)/);return m?JSON.parse(decodeURIComponent(m[1])):null}catch(e){return null}}
+function cookieSet(v){try{document.cookie=v?`${CFG_COOKIE}=${encodeURIComponent(JSON.stringify(v))}; max-age=34560000; path=/; SameSite=Strict; Secure`:`${CFG_COOKIE}=; max-age=0; path=/`}catch(e){}}
+function idb(){return new Promise((res,rej)=>{try{const r=indexedDB.open("rezeptbuch",1);r.onupgradeneeded=()=>r.result.createObjectStore("kv");r.onsuccess=()=>res(r.result);r.onerror=()=>rej(r.error)}catch(e){rej(e)}})}
+async function idbGet(k){try{const d=await idb();return await new Promise(res=>{const q=d.transaction("kv").objectStore("kv").get(k);q.onsuccess=()=>res(q.result||null);q.onerror=()=>res(null)})}catch(e){return null}}
+async function idbSet(k,v){try{const d=await idb();const t=d.transaction("kv","readwrite");v==null?t.objectStore("kv").delete(k):t.objectStore("kv").put(v,k)}catch(e){}}
+function saveCfg(c){cfg=c;if(c){ls.set("rb.cfg",c)}else ls.del("rb.cfg");cookieSet(c);idbSet("cfg",c);try{navigator.storage&&navigator.storage.persist&&navigator.storage.persist()}catch(e){}}
+let cfg=ls.get("rb.cfg",null)||cookieGet();
+function encodeKey(c){return btoa(unescape(encodeURIComponent(JSON.stringify({o:c.owner,r:c.repo,t:c.token,n:c.name||""})))).replace(/=+$/,"")}
+function decodeKey(s){const j=JSON.parse(decodeURIComponent(escape(atob(s))));return{owner:j.o,repo:j.r,token:j.t,name:j.n||""}}
 const queues={};let pending=0;
 
 function siteFromLocation(){const h=location.hostname;if(!h.endsWith(".github.io"))return null;const owner=h.replace(".github.io","");const seg=location.pathname.split("/").filter(Boolean)[0];
@@ -685,7 +716,7 @@ function renderFridge(){const it=store.fridge.items||[],pa=store.fridge.pantry||
   el.querySelectorAll(".match").forEach(c=>c.onclick=()=>openDetail(c.dataset.id))}
 
 /* ---------- detail ---------- */
-function openDetail(id){if(!byId(id))return;state.current=id;state.scale=1;state.checks=new Set();state.stepChecks=new Set();state.confirmDel=false;state.planDate=isoDate(new Date());
+function openDetail(id){if(!byId(id))return;state.current=id;state.noteEdit=false;state.scale=1;state.checks=new Set();state.stepChecks=new Set();state.confirmDel=false;state.planDate=isoDate(new Date());
   $("#detail").hidden=false;$("#detail").scrollTop=0;document.body.style.overflow="hidden";renderDetail()}
 function closeDetail(){$("#detail").hidden=true;state.current=null;document.body.style.overflow="";releaseWake()}
 function renderDetail(){const r=byId(state.current);const el=$("#detail-inner");if(!r){closeDetail();return}
@@ -695,26 +726,29 @@ function renderDetail(){const r=byId(state.current);const el=$("#detail-inner");
   const src=r.source?`<a class="btn" href="${esc(r.source)}" target="_blank" rel="noopener">${/youtu/.test(r.source)?'<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>Video ansehen':"Quelle öffnen"}</a>`:"";
   const last=r.lastCooked?new Date(r.lastCooked).toLocaleDateString("de-DE",{day:"numeric",month:"short",year:"numeric"}):null;
   const nu=nutrition(r);const parent=r.parentId?byId(r.parentId):null;const kids=recipes().filter(x=>x.parentId===r.id);const sibs=parent?recipes().filter(x=>x.parentId===parent.id&&x.id!==r.id):[];
-  const base2=siteBase();
-  el.innerHTML=`<div class="sheetbar"><button class="btn ghost" id="d-close">← Zurück</button><div class="actions">${wakeSupported?`<button class="btn sm" id="d-wake">${wakeLock?"Kochmodus an":"Kochmodus"}</button>`:""}${canWrite()?'<button class="btn sm" id="d-edit">Bearbeiten</button>':""}</div></div>
+  const base2=siteBase();const bringN=Math.min(12,Math.max(1,Math.round(serv)));
+  el.innerHTML=`<div class="sheetbar"><button class="btn ghost" id="d-close">← Zurück</button><div class="actions">${wakeSupported?`<button class="btn sm" id="d-wake">${wakeLock?"Kochmodus an":"Kochmodus"}</button>`:""}<button class="btn sm" id="d-edit">Bearbeiten</button></div></div>
   <div class="hero"><span class="mono">${mono(r)}</span>${r.photo?`<img src="${esc(imgSrc(r.photo))}" alt="${esc(r.title)}" onerror="this.remove()">`:""}</div>
   <div style="display:grid;gap:10px"><div class="meta">${r.status==="ok"?'<span class="pill ok">Bewährt</span>':'<span class="pill try">Will ich ausprobieren</span>'}<span class="pill plain">${esc(r.art||"")}</span><span class="pill plain">${esc(r.meal||"")}</span>${r.cuisine?`<span class="pill plain">${esc(r.cuisine)}</span>`:""}${isPrep(r)?'<span class="pill ok">Meal-Prep</span>':""}${(r.tags||[]).map(t=>`<span class="pill plain">#${esc(t)}</span>`).join("")}</div>
   <h1 class="dtitle">${esc(r.title)}</h1>
   ${parent?`<div class="small">Variante von <a href="#" id="d-parent">${esc(parent.title)}</a></div>`:""}
   <div class="facts">${r.time?`<div class="fact"><b>${r.time}</b><span>Minuten</span></div>`:""}<div class="fact"><b>${(r.ingredients||[]).length}</b><span>Zutaten</span></div><div class="fact"><b>${r.cookedCount||0}×</b><span>gekocht${last?" · zuletzt "+last:""}</span></div></div>
   ${eqList(r).length?`<div class="meta">${eqList(r).map(k=>`<span class="eqi">${EQUIP[k].i}${EQUIP[k].l}</span>`).join("")}</div>`:""}
-  <div class="actions">${src}${canWrite()?`<button class="btn primary" id="d-cooked">Heute gekocht</button>`:""}${base2?`<a class="btn" href="${base2}/r/${encodeURIComponent(r.id)}.html" target="_blank" rel="noopener">In Bring</a>`:""}</div></div>
+  <div class="actions">${src}${canWrite()?`<button class="btn primary" id="d-cooked">Heute gekocht</button>`:""}</div></div>
   ${canWrite()?`<div class="panel"><h2>In den Wochenplan</h2><div class="addrow"><input class="input" type="date" id="d-date" value="${state.planDate}"><button class="btn" id="d-plan">Planen</button></div></div>`:""}
   <div class="panel"><h2>Zutaten <span class="stepper"><button id="s-minus" aria-label="Weniger Portionen">−</button><span>${fmtNum(serv)} Port.</span><button id="s-plus" aria-label="Mehr Portionen">+</button></span></h2>${ings?`<ul class="ings">${ings}</ul>`:'<p class="small">Keine Zutaten eingetragen.</p>'}
-  ${canWrite()&&ings?`<div style="margin-top:12px"><button class="btn sm" id="d-shop">Auf die Einkaufsliste</button></div>`:""}</div>
+  ${ings?`<div class="bringrow">${base2?`<a class="btn sm primary" href="${base2}/r/${encodeURIComponent(r.id)}-${bringN}.html" target="_blank" rel="noopener">${bringN} ${bringN===1?"Portion":"Portionen"} in Bring</a>`:""}${canWrite()?'<button class="btn sm" id="d-shop">Auf unsere Einkaufsliste</button>':""}</div><p class="small" style="margin:8px 0 0">Portionen oben mit − und + einstellen, Bring übernimmt dann die passenden Mengen.</p>`:""}</div>
   ${nu?`<div class="panel"><h2>Nährwerte pro Portion <span class="small" style="font-family:var(--f-body);font-weight:400">${nu.manual?"eingetragen":`grob geschätzt · ${nu.known} von ${nu.total} Zutaten erkannt`}</span></h2><div class="nutri"><div><b>${nu.kcal}</b><span>kcal</span></div><div><b>${nu.protein} g</b><span>Eiweiß</span></div><div><b>${nu.carbs} g</b><span>Kohlenhydr.</span></div><div><b>${nu.fat} g</b><span>Fett</span></div></div></div>`:""}
   <div class="panel"><h2>Zubereitung <button class="tbtn" id="d-owntimer">${ICON_T}Eigener Timer</button></h2>${steps?`<ol class="steps">${steps}</ol>`:'<p class="small">Keine Schritte eingetragen.</p>'}<p class="small" style="margin:12px 0 0">Tippe auf die Nummer, um einen Schritt abzuhaken.</p></div>
-  ${r.notes?`<div class="panel"><h2>Notizen fürs nächste Mal</h2><div class="notes">${esc(r.notes)}</div></div>`:""}
+  ${state.noteEdit?`<div class="panel"><h2>Notizen fürs nächste Mal</h2><div class="notebox"><textarea class="input" id="d-note-in" style="min-height:110px">${esc(r.notes||"")}</textarea><div class="actions"><button class="btn sm primary" id="d-note-save">Notiz speichern</button><button class="btn sm ghost" id="d-note-cancel">Abbrechen</button></div></div></div>`
+    :(r.notes||canWrite())?`<div class="panel"><h2>Notizen fürs nächste Mal ${canWrite()?`<button class="btn sm" id="d-note">${r.notes?"Ändern":"Notiz hinzufügen"}</button>`:""}</h2>${r.notes?`<div class="notes">${esc(r.notes)}</div>`:'<p class="small" style="margin:0">Was willst du beim nächsten Mal anders machen?</p>'}</div>`:""}
   <div class="panel"><h2>Varianten ${canWrite()?'<button class="btn sm" id="d-variant">Variante anlegen</button>':""}</h2>
    ${[...kids,...sibs].length||parent?`<div class="variants">${parent?`<button class="match" data-id="${esc(parent.id)}">${thumbHTML(parent,"mthumb",false)}<div class="mb"><h3>${esc(parent.title)}</h3><span class="small">Original</span></div></button>`:""}${[...kids,...sibs].map(v=>`<button class="match" data-id="${esc(v.id)}">${thumbHTML(v,"mthumb",false)}<div class="mb"><h3>${esc(v.title)}</h3><span class="small">${esc(v.notes?v.notes.slice(0,60):"Variante")}</span></div></button>`).join("")}</div>`:'<p class="small" style="margin:0">Noch keine Varianten. Leg eine an, wenn ihr das Rezept abwandelt, zum Beispiel mit Süßkartoffel statt Kartoffel.</p>'}</div>
   ${canWrite()?(state.confirmDel?`<div class="confirm"><b>„${esc(r.title)}“ wirklich löschen?</b><span class="small" style="color:var(--fg)">Das Rezept ist danach für alle weg.</span><div class="actions"><button class="btn danger" id="d-del-yes">Endgültig löschen</button><button class="btn" id="d-del-no">Behalten</button></div></div>`:`<div><button class="btn ghost" id="d-del" style="color:var(--tomato)">Rezept löschen</button></div>`):""}`;
   const on=(id,fn)=>{const b=$(id);if(b)b.onclick=fn};
-  on("#d-close",closeDetail);on("#d-edit",()=>{const x=r;closeDetail();openEditor(x)});on("#d-wake",toggleWake);
+  on("#d-close",closeDetail);on("#d-edit",()=>{if(!canWrite()){openSettings();$("#st-status").textContent="Zum Bearbeiten einmal verbinden. Danach unter „Verbunden bleiben“ den Startlink speichern.";return}const x=r;closeDetail();openEditor(x)});
+  on("#d-note",()=>{state.noteEdit=true;renderDetail();setTimeout(()=>$("#d-note-in")?.focus(),30)});on("#d-note-cancel",()=>{state.noteEdit=false;renderDetail()});
+  on("#d-note-save",()=>{const v=$("#d-note-in").value.trim(),id=r.id;state.noteEdit=false;change("recipes",d=>{const x=(d.recipes||[]).find(y=>y.id===id);if(x){x.notes=v;x.updatedAt=Date.now()}},`Notiz geändert: ${r.title}`).then(()=>toast("Notiz gespeichert")).catch(()=>{})});on("#d-wake",toggleWake);
   on("#d-parent",e=>{e.preventDefault();openDetail(parent.id)});
   on("#s-minus",()=>{const step=base>=2?1:.5;state.scale=Math.max(.5,serv-step)/base;renderDetail()});on("#s-plus",()=>{const step=base>=2?1:.5;state.scale=(serv+step)/base;renderDetail()});
   el.querySelectorAll(".ings input").forEach(c=>c.onchange=()=>{const k=+c.dataset.k;c.checked?state.checks.add(k):state.checks.delete(k);c.closest("li").classList.toggle("done",c.checked)});
@@ -792,9 +826,23 @@ $("#ed-save").onclick=async()=>{const st=$("#ed-status");st.className="status";c
   catch(e){if(!$("#editor").hidden){st.className="status err";st.textContent=errText(e)||"Speichern hat nicht geklappt."}}
   finally{btn.disabled=false}};
 
+/* ---------- export ---------- */
+function download(name,text,type){const blob=new Blob([text],{type});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(url);a.remove()},1500)}
+const stamp=()=>isoDate(new Date());
+function csvCell(v){v=v==null?"":String(v);return /[";\n\r]/.test(v)?'"'+v.replace(/"/g,'""')+'"':v}
+$("#ex-csv").onclick=()=>{const head=["Titel","Art","Mahlzeit","Landesküche","Zeit (Min.)","Portionen","Meal-Prep","Geräte","Zutaten","Zubereitung","Tags","Notizen","Quelle","Status","Variante von","Gekocht","Zuletzt gekocht"];
+  const rows=recipes().slice().sort((a,b)=>a.title.localeCompare(b.title,"de")).map(r=>[r.title,r.art,r.meal,r.cuisine,r.time,r.servings,isPrep(r)?"ja":"nein",eqList(r).map(k=>EQUIP[k].l).join(", "),
+    (r.ingredients||[]).map(ingToLine).join("\n"),(r.steps||[]).map((x,i)=>`${i+1}. ${x}`).join("\n"),(r.tags||[]).join(", "),r.notes,r.source,r.status==="ok"?"Bewährt":"Ausprobieren",
+    r.parentId?(byId(r.parentId)?.title||""):"",r.cookedCount||0,r.lastCooked?isoDate(r.lastCooked):""]);
+  const csv="﻿"+[head,...rows].map(r=>r.map(csvCell).join(";")).join("\r\n");download(`rezeptbuch-${stamp()}.csv`,csv,"text/csv;charset=utf-8");$("#ex-status").textContent=`${rows.length} Rezepte exportiert.`};
+$("#ex-json").onclick=()=>{const all={exportiert:new Date().toISOString(),rezepte:store.recipes,wochenplan:store.plan,kuehlschrank:store.fridge,einkauf:store.shopping};
+  download(`rezeptbuch-backup-${stamp()}.json`,JSON.stringify(all,null,1),"application/json");$("#ex-status").textContent="Backup gespeichert. Enthält Rezepte, Wochenplan, Kühlschrank und Einkaufsliste. Fotos bleiben auf GitHub."};
+$("#ex-pdf").onclick=()=>{const base=siteBase();if(!base){$("#ex-status").className="status err";$("#ex-status").textContent="Das Kochbuch gibt es nur, wenn die App über GitHub Pages läuft.";return}
+  window.open(base+"/kochbuch.html","_blank","noopener");$("#ex-status").className="status";$("#ex-status").textContent="Das Kochbuch öffnet sich in einem neuen Tab. Dort „Drucken / als PDF sichern“ antippen. Neue Rezepte erscheinen dort etwa eine Minute nach dem Speichern."};
+
 /* ---------- settings ---------- */
 function openSettings(){const ri=repoInfo()||{};$("#st-name").value=cfg?.name||"";$("#st-owner").value=cfg?.owner||ri.owner||"";$("#st-repo").value=cfg?.repo||ri.repo||"";$("#st-token").value=cfg?.token||"";
-  $("#st-status").textContent="";$("#st-invite-box").hidden=!canWrite();$("#settings").hidden=false;document.body.style.overflow="hidden"}
+  $("#st-status").textContent="";$("#st-invite-box").hidden=!canWrite();$("#st-stay-box").hidden=!canWrite();$("#ex-status").textContent="";$("#settings").hidden=false;document.body.style.overflow="hidden"}
 function closeSettings(){$("#settings").hidden=true;document.body.style.overflow=""}
 $("#settings-btn").onclick=openSettings;$("#ro-connect").onclick=openSettings;$("#st-close").onclick=closeSettings;
 $("#st-save").onclick=async()=>{const st=$("#st-status");st.className="status";const c={name:$("#st-name").value.trim(),owner:$("#st-owner").value.trim(),repo:$("#st-repo").value.trim(),token:$("#st-token").value.trim()};
@@ -803,18 +851,24 @@ $("#st-save").onclick=async()=>{const st=$("#st-status");st.className="status";c
   try{const res=await fetch(`https://api.github.com/repos/${c.owner}/${c.repo}`,{headers:{"Accept":"application/vnd.github+json",...(c.token?{Authorization:"Bearer "+c.token}:{})}});
     if(res.status===401)throw new Error("Der Zugangsschlüssel ist ungültig.");if(res.status===404)throw new Error("Repository nicht gefunden. Prüf die Schreibweise und ob der Schlüssel Zugriff darauf hat.");if(!res.ok)throw new Error("GitHub ist gerade nicht erreichbar.");
     const j=await res.json();if(c.token&&!(j.permissions&&j.permissions.push))throw new Error("Der Schlüssel darf in diesem Repository nichts speichern. Gib ihm Lese- und Schreibrechte für „Contents“.");
-    cfg=c;ls.set("rb.cfg",cfg);for(const k in meta)meta[k]={sha:null,etag:null,loaded:false};closeSettings();toast(c.token?"Verbunden":"Verbunden (nur Ansicht)");await loadAll(true)}
+    saveCfg(c);for(const k in meta)meta[k]={sha:null,etag:null,loaded:false};closeSettings();toast(c.token?"Verbunden":"Verbunden (nur Ansicht)");await loadAll(true)}
   catch(e){st.className="status err";st.textContent=e.message}};
 $("#st-invite").onclick=()=>{const payload=btoa(unescape(encodeURIComponent(JSON.stringify({o:cfg.owner,r:cfg.repo,t:cfg.token}))));const base=siteBase()||location.href.split("#")[0];
   copyText(`${base}/#invite=${payload}`.replace(/([^:])\/\//g,"$1/"),$("#st-invite-fallback"))};
-$("#st-logout").onclick=()=>{ls.del("rb.cfg");cfg=null;closeSettings();toast("Getrennt");loadAll(true)};
-function readInvite(){const m=location.hash.match(/^#invite=(.+)$/);if(!m)return false;try{const j=JSON.parse(decodeURIComponent(escape(atob(m[1]))));cfg={name:cfg?.name||"",owner:j.o,repo:j.r,token:j.t};ls.set("rb.cfg",cfg)}catch(e){}
+$("#st-logout").onclick=()=>{saveCfg(null);if(/#key=/.test(location.hash))history.replaceState(null,"",location.pathname+location.search);closeSettings();toast("Getrennt");loadAll(true)};
+function personalLink(){const base=(siteBase()||location.href.split("#")[0].replace(/index\.html$/,"")).replace(/\/$/,"");return`${base}/index.html#key=${encodeKey(cfg)}`}
+$("#st-stay").onclick=()=>{location.href=personalLink();closeSettings();toast("Startlink geöffnet. Jetzt zum Home-Bildschirm hinzufügen.",4000)};
+$("#st-stay-copy").onclick=()=>copyText(personalLink(),$("#st-stay-fallback"));
+function readInvite(){const k=location.hash.match(/^#key=(.+)$/);if(k){try{const c=decodeKey(k[1]);if(c.owner&&c.token)saveCfg({...c,name:c.name||cfg?.name||""})}catch(e){}return false}
+  const m=location.hash.match(/^#invite=(.+)$/);if(!m)return false;try{const j=JSON.parse(decodeURIComponent(escape(atob(m[1]))));saveCfg({name:cfg?.name||"",owner:j.o,repo:j.r,token:j.t})}catch(e){}
   history.replaceState(null,"",location.pathname+location.search);return true}
 
+window.addEventListener("hashchange",()=>{if(/^#key=/.test(location.hash)){readInvite();for(const k in meta)meta[k]={sha:null,etag:null,loaded:false};loadAll(true)}});
 document.addEventListener("keydown",e=>{if(e.key!=="Escape")return;if(!$("#editor").hidden)closeEditor();else if(!$("#picker").hidden)closePicker();else if(!$("#settings").hidden)closeSettings();else if(!$("#detail").hidden)closeDetail()});
 
 /* ---------- boot ---------- */
-(async()=>{const invited=readInvite();render();if(!repoInfo()){openSettings();return}
+(async()=>{const invited=readInvite();if(!cfg){const c=await idbGet("cfg");if(c&&c.token){cfg=c;ls.set("rb.cfg",c);cookieSet(c)}}else saveCfg(cfg);
+  render();if(!repoInfo()){openSettings();return}
   await loadAll(true);if(invited){openSettings();$("#st-status").textContent="Eingeladen! Trag noch deinen Namen ein und tippe auf Verbinden.";$("#st-name").focus()}})();
 </script>
 </body>
