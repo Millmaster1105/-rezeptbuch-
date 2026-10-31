@@ -2918,100 +2918,6 @@
    "lastCooked": null
   },
   {
-   "id": "thai-gai-pad-med-mamuang",
-   "title": "Hähnchen mit Cashews (Gai Pad Med Mamuang)",
-   "source": "",
-   "art": "Kochen",
-   "meal": "Hauptgericht",
-   "time": 20,
-   "servings": 1,
-   "cuisine": "Thailändisch",
-   "mealprep": false,
-   "equipment": [
-    "pfanne"
-   ],
-   "ingredients": [
-    {
-     "amount": 150,
-     "unit": "g",
-     "name": "Hähnchenbrust, in Streifen"
-    },
-    {
-     "amount": 2,
-     "unit": "",
-     "name": "Mu-Err-Pilze, eingeweicht"
-    },
-    {
-     "amount": 0.5,
-     "unit": "",
-     "name": "Zwiebel"
-    },
-    {
-     "amount": 3,
-     "unit": "Scheiben",
-     "name": "Karotte"
-    },
-    {
-     "amount": 0.5,
-     "unit": "",
-     "name": "Paprika"
-    },
-    {
-     "amount": 40,
-     "unit": "g",
-     "name": "Cashews, geröstet"
-    },
-    {
-     "amount": 0.5,
-     "unit": "TL",
-     "name": "Zucker"
-    },
-    {
-     "amount": 1,
-     "unit": "TL",
-     "name": "Austernsauce"
-    },
-    {
-     "amount": 1,
-     "unit": "TL",
-     "name": "Sojasauce"
-    },
-    {
-     "amount": 1,
-     "unit": "EL",
-     "name": "Pflanzenöl"
-    },
-    {
-     "amount": 1,
-     "unit": "TL",
-     "name": "Sojabohnenpaste"
-    },
-    {
-     "amount": 2,
-     "unit": "",
-     "name": "getrocknete Chilis (optional)"
-    }
-   ],
-   "steps": [
-    "Öl im Wok stark erhitzen.",
-    "Hähnchen 2 Minuten anbraten, dann Zwiebel, Paprika, Karotte, Pilze und Cashews dazugeben und 2 Minuten mitbraten.",
-    "Sojasauce, Sojabohnenpaste, Zucker und Austernsauce dazugeben und alles gut durchschwenken."
-   ],
-   "nutrition": null,
-   "status": "try",
-   "tags": [
-    "Thai-Kochkurs"
-   ],
-   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
-   "photo": null,
-   "parentId": null,
-   "author": "Claude",
-   "createdAt": 1793393072454,
-   "updatedAt": 1793393072454,
-   "cookedCount": 0,
-   "lastCooked": null
-  },
-  {
    "id": "thai-pad-krapow",
    "title": "Pad Krapow (Basilikum-Hähnchen)",
    "source": "",
@@ -3199,6 +3105,95 @@
    "author": "Claude",
    "createdAt": 1793393072456,
    "updatedAt": 1793393072456,
+   "cookedCount": 0,
+   "lastCooked": null
+  },
+  {
+   "id": "thai-gai-pad-med-mamuang",
+   "title": "Hähnchen mit Cashews (Gai Pad Med Mamuang)",
+   "source": "",
+   "art": "Kochen",
+   "meal": "Hauptgericht",
+   "time": 20,
+   "servings": 1,
+   "cuisine": "Thailändisch",
+   "mealprep": false,
+   "equipment": [
+    "pfanne"
+   ],
+   "ingredients": [
+    {
+     "amount": 150,
+     "unit": "g",
+     "name": "Hähnchenbrust, in Streifen"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "Mu-Err-Pilze, eingeweicht"
+    },
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Zwiebel"
+    },
+    {
+     "amount": 3,
+     "unit": "Scheiben",
+     "name": "Karotte"
+    },
+    {
+     "amount": 0.5,
+     "unit": "",
+     "name": "Paprika"
+    },
+    {
+     "amount": 40,
+     "unit": "g",
+     "name": "Cashews, geröstet"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Austernsauce"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojasauce"
+    },
+    {
+     "amount": 1,
+     "unit": "EL",
+     "name": "Pflanzenöl"
+    },
+    {
+     "amount": 1,
+     "unit": "TL",
+     "name": "Sojabohnenpaste"
+    },
+    {
+     "amount": 2,
+     "unit": "",
+     "name": "getrocknete Chilis (optional)"
+    }
+   ],
+   "steps": [
+    "Öl im Wok stark erhitzen.",
+    "Hähnchen 2 Minuten anbraten, dann Zwiebel, Paprika, Karotte, Pilze und Cashews dazugeben und 2 Minuten mitbraten.",
+    "Sojasauce, Sojabohnenpaste, Zucker und Austernsauce dazugeben und alles gut durchschwenken."
+   ],
+   "nutrition": null,
+   "status": "try",
+   "tags": [
+    "Thai-Kochkurs"
+   ],
+   "notes": "Aus dem Kochkurs „Menu in Coconut Shell“. Mengen für 1 Portion, fehlende Angaben sinnvoll ergänzt.",
+   "photo": null,
+   "parentId": null,
+   "author": "Claude",
+   "createdAt": 1793393072454,
+   "updatedAt": 1793465317553,
    "cookedCount": 0,
    "lastCooked": null
   }
