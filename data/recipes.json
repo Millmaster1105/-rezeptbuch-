@@ -3204,7 +3204,7 @@
    "art": "Kochen",
    "meal": "Hauptgericht",
    "time": 450,
-   "servings": 14,
+   "servings": 20,
    "cuisine": "Italienisch",
    "mealprep": true,
    "equipment": [
@@ -3293,12 +3293,12 @@
     "Pasta-Sauce",
     "Großmenge"
    ],
-   "notes": "Ergibt 14 Portionen. Der erste Teil läuft z. B. mittags, nach der Kochpause geht es abends weiter. Lässt sich portionsweise gut einfrieren.",
+   "notes": "Ergibt ca. 20 Portionen à ca. 180 g Ragù (bei 14 Portionen sehr großzügig). Der erste Teil läuft z. B. mittags, nach der Kochpause geht es abends weiter. Lässt sich portionsweise gut einfrieren.",
    "photo": null,
    "parentId": null,
    "author": "Claude",
    "createdAt": 1793648243616,
-   "updatedAt": 1793648243616,
+   "updatedAt": 1793648377058,
    "cookedCount": 0,
    "lastCooked": null
   }
